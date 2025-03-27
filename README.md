@@ -5,11 +5,11 @@ Random Forest Algorithm working on heart attack risk calculation
 This dataset contains 8,763 records with 26 attributes, primarily focused on cardiovascular health factors. The target variable for classification is "Heart Attack Risk", which is binary (0 = No Risk, 1 = High Risk).
 
 # Dependences::
-pandas
-numpy
-matplotlib
-seaborn
-imblearn
+pandas,
+numpy,
+matplotlib,
+seaborn,
+imblearn,
 sklearn
 # Why Use Random Forest for Heart Attack Prediction?
 •	Handles High-Dimensional Data: The dataset has 25+ features, and Random Forest is good at selecting the most important ones.
